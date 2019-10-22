@@ -12,6 +12,7 @@ export class ProductAlertsComponent implements OnInit {
 
 
   
+  
   //ff
   ngOnInit() {
   }
