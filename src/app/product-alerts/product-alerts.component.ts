@@ -10,6 +10,10 @@ export class ProductAlertsComponent implements OnInit {
   @Output() notify = new EventEmitter();
   constructor() { }
 
+
+
+
+  //ff
   ngOnInit() {
   }
 
