@@ -8,7 +8,6 @@ import { products } from '../products';
 })
 export class ProductListComponent implements OnInit {
   products = products;
-
   constructor() { }
 
   ngOnInit() {
