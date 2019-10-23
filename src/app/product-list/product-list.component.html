@@ -3,7 +3,7 @@
 <div class="card flex-item" *ngFor="let product of products; index as productId">
     <h3>
         <a [title]="product.name + ' details'" [routerLink]="['/products', productId]">
-            {{ product.name }}
+            {{ product.name | productPipe: product.price > 1000 ? true :  false}}
         </a>
     </h3>
 
